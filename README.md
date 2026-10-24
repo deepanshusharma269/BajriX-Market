@@ -67,13 +67,6 @@ The migration `V2__sample_data.sql` creates:
 * 3 products (cement, bricks, steel rod).
 * Multiple listings for the same cement product with different prices and stocks.
 
-## What is NOT implemented
-* Real user authentication / password handling.
-* Payment, checkout, or quote workflows.
-* Email / SMS notifications.
-* Pagination on the seller‑dashboard listing page (the demo shows all listings).
-* Extensive UI styling – kept minimal for clarity.
-
 ## Future improvements
 * Replace the mock filter with JWT / OAuth2 security.
 * Add full‑text search (e.g., PostgreSQL `tsvector`) for faster product lookup at massive scale.
